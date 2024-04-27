@@ -55,6 +55,8 @@ funcion2 = Route(
         "verificar una persona",
         "listas de lavados de activos",
         "listas restrictivas",
+		"verifica a una persona",
+		"lavado de activos",
     ],
 )
 
@@ -71,7 +73,7 @@ no_permitido = Route(
 )
 
 # we place both of our decisions together into single list
-routes = [funcion1,funcion2]
+routes = [funcion1,funcion2,no_permitido]
 
 rl = RouteLayer(encoder=encoder, routes=routes)
 
