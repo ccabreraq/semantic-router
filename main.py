@@ -67,12 +67,11 @@ no_permitido = Route(
         "la politica es buena?",
         "quien salvra a este pais",
 		"te gusta el sexo",
-		""
     ],
 )
 
 # we place both of our decisions together into single list
-routes = [funcion1,funcion2,no_permitido]
+routes = [funcion1,funcion2]
 
 rl = RouteLayer(encoder=encoder, routes=routes)
 
