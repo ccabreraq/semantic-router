@@ -74,8 +74,20 @@ no_permitido = Route(
     ],
 )
 
+contrato = Route(
+    name="contrato|https://flowise-y3q2.onrender.com/api/v1/prediction/dcdca554-2b89-4fb8-8443-3679784a369c",
+    utterances=[
+        "cuales son lo mejores politicos",
+        "que opinas del presidente petro",
+        "de que partido eres",
+        "la politica es buena?",
+        "quien salvra a este pais",
+		"te gusta el sexo",
+    ],
+)
+
 # we place both of our decisions together into single list
-routes = [funcion1,funcion2,no_permitido]
+routes = [funcion1,funcion2,no_permitido,contrato]
 
 rl = RouteLayer(encoder=encoder, routes=routes)
 
