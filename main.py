@@ -48,6 +48,7 @@ funcion1 = Route(
 		"hacer operaciones matematicas",
 		"cuantas facturas hay",
 		"cuantas facturas son",
+		"cuanto es esto mas esto"
     ],
 )
 
