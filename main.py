@@ -39,12 +39,15 @@ funcion1 = Route(
     name="funcion1|https://flowise-y3q2.onrender.com/api/v1/prediction/28e85d20-87ed-493d-8860-60241c9250e9",
     utterances=[
         "enviar un correo",
+		"enviar un correo electronico",
         "enviar un sms",
         "total de facturas",
         "cantidades de facturas o documentos",
         "calculadora",
 		"sumar un numero con otro",
 		"hacer operaciones matematicas",
+		"cuantas facturas hay",
+		"cuantas facturas son",
     ],
 )
 
