@@ -79,7 +79,7 @@ no_permitido = Route(
 )
 
 contrato = Route(
-    name="contrato|https://flowise-y3q2.onrender.com/api/v1/prediction/dcdca554-2b89-4fb8-8443-3679784a369c",
+    name="contrato|https://flowise-y3q2.onrender.com/api/v1/prediction/b2f85ad1-6680-4d25-9b13-8d868841a9d8",
     utterances=[
         "quien firma el contrato",
         "de que habla el contrato",
@@ -87,6 +87,8 @@ contrato = Route(
         "fecha del contrato?",
         "cualquier pregunta del contrato",
 		"contrato",
+		"dime el diagnostico",
+		"paciente",		
     ],
 )
 
