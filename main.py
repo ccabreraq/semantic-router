@@ -103,8 +103,11 @@ async def chat_agent(info : Request):
 	req_info = await info.json()	
 	mensajes =req_info["messages"]
 	uid = req_info["uid"]
+	datos_personales = req_info["datos_personales"]
 	ultimo = len(req_info["messages"])-1
 	content = mensajes[ultimo]["content"]
+	
+    # ojo aca se debe armar
 
 	resp1 = rl(content).name
 	print(resp1)
